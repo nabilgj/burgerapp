@@ -6,6 +6,7 @@ import Backdrop from '../Backdrop/Backdrop';
 
 const modal = props => (
     <Auxiliary>
+    
         <Backdrop 
             show={props.show}
             clicked={props.modalClosed}
@@ -18,6 +19,7 @@ const modal = props => (
             className={classes.Modal}>
             {props.children}
         </div>
+
     </Auxiliary>
    
 );

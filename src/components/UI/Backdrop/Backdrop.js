@@ -8,5 +8,5 @@ const backdrop  = props => (
         className={classes.Backdrop}></div> : null
 );
 
-// will go into modal
+// will go into modal and sidedrawer
 export default backdrop;
