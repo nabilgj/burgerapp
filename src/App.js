@@ -1,13 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      Burger app
-    </div>
-  );
-}
+import Layout from './components/Layout/Layout';
+import BurgerBuilder from './containers/BurgerBuilder/BurgerBuilder';
 
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Layout>
+            <BurgerBuilder />
+        </Layout>
+      </div>
+    );
+  }
+};
+
+// will go into index
 export default App;
